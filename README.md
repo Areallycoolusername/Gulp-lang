@@ -1,8 +1,12 @@
 # Gulp-lang
 Gulp is an esoteric, deque based, golfing programming language made to win many CG challenges. It has 128 commands, each one often having many functions at once. This tutorial will run you through the basics in order to start programming right away. All commamds that are not explained here, will be in a chart soon to be in this repo.
 # Syntax
-The syntax of Gulp is very simple. It consists of one commamd folllwed by a parameter. The only exceptions are commamds which have to surround their parameters, and commands which have several parameters. Many properties in this language also affect the use of commands. 
-# Printing
+The syntax of Gulp is very simple. It consists of one commamd folllwed by a parameter. The only exceptions are commands which have to surround their parameters, and commands which have several parameters. Many properties in this language also affect the use of commands. e.g
+
+    Properties{[Command][Parameter(s)]}
+
+This shows that commands have parameters, however, their function may be affected by properties built-in to Gulp. 
+# I/O
 Printing is simple in this language. Anything surroumded in single quotes is automatically pushed to the front of the deque, and printed. Take this Hello World Program as an example.
 
     'Hello, world!'
@@ -11,9 +15,13 @@ As  mentioned before, Gulp has properties that make golfing easier. One of these
 
     'Hello, world!
 
-This is still valid. There are still many commamds, however, that deal with printing as part of their functions. 
+This is still valid. There are still many commamds, however, that deal with printing as part of their functions. Input is also simple. It is received from the user using the "j" command, and is automatically pushed to the front of the deque. e.g
+
+ j
+
+This peogram will get input and push to to the deque. There is another command that takes uer input, pushes it to the front of the deque, and prints it. That is the "k" command. 
 # Variables
-Variablez are an important part of golfing. Which is why variables are easy to understand. Variables are declared with the    "o" command (notice how the o is lowercase. Gulp is case sensitive, so capital O has a different function). Fooloowing the o command is a variable name, which can only be 1 byte in lenth, and the value of the variable. e.f
+Variablez are an important part of golfing. Which is why variables are easy to understand. Variables are declared with the    "o" command (notice how the o is lowercase. Gulp is case sensitive, so capital O has a different function). Following the o command is a variable name, which can only be 1 byte in lenth, and the value of the variable. e.f
 
     oi99
 
