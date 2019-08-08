@@ -1,5 +1,5 @@
 # Gulp-lang
-Gulp is an esoteric, deque based, golfing programming language made to win many CG challenges. It has 128 commands, each one often having many functions at once. This tutorial will run you through the basics in order to start programming right away. All commamds that are not explained here, will be in a chart soon to be in this repo.
+Gulp is an esoteric, deque based, golfing programming language made to win many CG challenges. It has 128 commands, each one often having many functions at once. This tutorial will run you through the basics in order to start programming right away. All commands that are not explained here, will be in a chart soon to be in this repo.
 # Syntax
 The syntax of Gulp is very simple. It consists of one commamd folllwed by a parameter. The only exceptions are commands which have to surround their parameters, and commands which have several parameters. Many properties in this language also affect the use of commands. e.g
 
