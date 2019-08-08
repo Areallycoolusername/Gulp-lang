@@ -17,7 +17,7 @@ As  mentioned before, Gulp has properties that make golfing easier. One of these
 
 This is still valid. There are still many commamds, however, that deal with printing as part of their functions. Input is also simple. It is received from the user using the "j" command, and is automatically pushed to the front of the deque. e.g
 
- j
+    j
 
 This peogram will get input and push to to the deque. There is another command that takes uer input, pushes it to the front of the deque, and prints it. That is the "k" command. 
 # Variables
@@ -43,4 +43,14 @@ This program actually checks if i is less than 100, not 1000. The extra 0 is a c
 
     pi<100p0C:\FolderName\File.gu'i is less than 100'pC:\FolderName\File.gu i is less than 1000
 
-This would give the desired output, "i is less than 100".
+This would give the desired output, "i is less than 100". 
+# Loops
+There are no built in while and for loops in Gulp. However, there is a loop that takes an integer at the beginning of the loop, executes the given instructions in the loop, decrements the integer, and repeats this until the number has reached 0. e.g
+
+    ow32(3w)
+
+This program prints the integer 32, three times. While the other loops arent in this language, they can be implemented using the goto instructions that are in Gulp. These commands are "v", which labels a section of code with a name for goto, and "w", which jumps to the specified label. Here is a while loop that prints integers 1 to 10.
+
+    oc1vspc<11cc+ws
+
+This  program declares variable c with value 1. Then, it label s the rest of code wkth the name "s". The program checks if c is less than 11. If it is, then c is printed and incremented, and the program jumps back to the beginning of the if statement.
