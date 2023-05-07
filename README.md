@@ -8,7 +8,7 @@ Gulp's syntax is simple. It consists of one commamd followed by an argument. The
 This shows that the function of certain commands may be changed if they are modified with a property.
 
 # I/O
-Anything surroumded in single quotes is automatically pushed to the front of the deque, and printed. Take this Hello World Program as an example.
+Anything surrounded in single quotes is automatically pushed to the front of the deque, and printed. Take this Hello World Program as an example.
 
     'Hello, world!'
 
